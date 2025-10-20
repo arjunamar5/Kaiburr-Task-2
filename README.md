@@ -145,7 +145,9 @@ http://localhost:30081/api/tasks
 3. Execution of command using Postman using http://localhost:30081/api/tasks/130/executions (POST request)
 
 ![execution-of-cmd](https://github.com/user-attachments/assets/93ae157d-d8c2-4114-aa3f-c7359b9fc06d)
-
+---
+3a. Curl command for testing the execution endpoint
+<img width="1121" height="123" alt="image" src="https://github.com/user-attachments/assets/734e4ca5-a6ae-4b00-96a0-e429818fd61c" />
 
 ---
 4. Execution output of the command shown inside the busy box pod
