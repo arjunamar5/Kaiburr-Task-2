@@ -88,7 +88,7 @@ kubectl get all
 
 ---
 
-## ⚡ Commands Used
+## Commands Used
 
 ```bash
 # Check running pods
@@ -107,14 +107,14 @@ kubectl exec -it <pod-name> -- <command>
 
 ---
 
-## 🧾 Verification
+## Verification
 
-### ✅ Check pods
+### Check pods
 ```bash
 kubectl get pods
 ```
 
-### ✅ Application and MongoDB pods running
+### Application and MongoDB pods running
 ```
 NAME                                     READY     STATUS    RESTARTS      AGE
 pod/command-pod-6df07a63                  0/1     Completed    0          139m
@@ -122,13 +122,13 @@ pod/mongodb-6bd45f4756-nnqpr              1/1     Running      0          141m
 pod/poc-app-deployment-69f74f494d-clp6w   1/1     Running      0          141m
 ```
 
-### ✅ Access application using GET 
+### Access application using GET 
 ```bash
 http://localhost:30081/api/tasks
 ```
 ---
 
-## 📸 Screenshots to Include
+## Screenshots to Include
 
 1. Output of `kubectl get all`  #includes the details of pods, services, deployments and replicas
 
